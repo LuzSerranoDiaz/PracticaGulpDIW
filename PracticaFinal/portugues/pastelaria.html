@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Migas Amigas</title>
+    <link rel="stylesheet" href="../styles/bolleria.css">
+</head>
+<body>
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+          if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+          } else {
+            document.getElementById("navbar").style.top = "-280px";
+          }
+          prevScrollpos = currentScrollPos;
+        }
+    </script>
+    <div class="grid">
+    <nav id="navbar">
+        <div class="secciones">
+            <div class="elementoNav" id="panaderia"><a href="padaria.html"><span>Padaria</span></a></div>
+            <div class="elementoNav" id="bolleria"><a href="pastelaria.html"><span>Pasteleria</span></a></div>
+            <div class="elementoNav" id="empanadas"><a href="empanadas.html"><span>Empanadas</span></a></div>
+        </div>
+        <div class="elementoNav" id="CambiarIdioma"><a href="../bolleria.html"><span>Mudar idioma</span></a></div>
+        <div class="textoImportante-D"><a href="index.html"> MIGAS AMIGAS</a></div>
+    </nav>
+    <div class="cuerpo">
+        <main>
+            <div class="productos">
+                <div class="producto">
+                    <img src="img/bolleria/1.jpg" alt="">
+                    <p>Ingredientes: <br>
+                        Elaboração:</p>
+                </div>
+                <div class="producto">
+                    <img src="img/bolleria/2.jpg" alt="">
+                    <p>Ingredientes: <br>
+                        Elaboração:</p>
+                </div>
+                <div class="producto">
+                    <img src="img/bolleria/3.jpg" alt="">
+                    <p>Ingredientes: <br>
+                        Elaboração:</p>
+                </div>
+            
+                <div class="producto">
+                    <img src="img/bolleria/4.jpg" alt="">
+                    <p>Ingredientes: <br>
+                        Elaboração:</p>
+                </div>
+                <div class="producto">
+                    <img src="img/bolleria/5.jpg" alt="">
+                    <p>Ingredientes: <br>
+                        Elaboração:</p>
+                </div>
+                <div class="producto">
+                    <img src="img/bolleria/6.jpg" alt="">
+                    <p>Ingredientes: <br>
+                        Elaboração:</p>
+                </div>
+            
+                <div class="producto">
+                    <img src="img/bolleria/7.jpg" alt="">
+                    <p>Ingredientes: <br>
+                        Elaboração:</p>
+                </div>
+                <div class="producto">
+                    <img src="img/bolleria/8.jpg" alt="">
+                    <p>Ingredientes: <br>
+                        Elaboração:</p>
+                </div>
+            </div>
+
+        </main>
+        <footer>
+            <div id="informacionContacto">
+                <p>
+                    Informação de contato <br>
+                    123 456 789 <br>
+                    Avd alhambra nº72 ALMERÍA
+                </p>
+    
+                <img src="img/croquis.JPG">
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Migas Amigas</title>
+    <link rel="stylesheet" href="styles/panaderia.css">
+   
+</head>
+<body>
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+          if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+          } else {
+            document.getElementById("navbar").style.top = "-280px";
+          }
+          prevScrollpos = currentScrollPos;
+        }
+    </script>
+    <div class="grid">
+    <nav id="navbar">
+        <div class="secciones">
+            <div class="elementoNav" id="panaderia"><a href="panaderia.html"><span>Panadería</span></a></div>
+            <div class="elementoNav" id="bolleria"><a href="bolleria.html"><span>Bollería</span></a></div>
+            <div class="elementoNav" id="empanadas"><a href="empanadas.html"><span>Empanadas</span></a></div>
+        </div>
+        <div class="elementoNav" id="CambiarIdioma"><a href="portugues/padaria.html"><span>Cambiar idioma</span></a></div>
+        <div class="textoImportante-D"><a href="index.html"> MIGAS AMIGAS</a></div>
+    </nav>
+    <div class="cuerpo">
+        <main>
+            <div class="productos">
+                <div class="producto">
+                    <img src="img/panes/1.jpg" alt="">
+                    <p>Ingredientes: <br>
+                        Elaboración:</p>
+                </div>
+                <div class="producto">
+                    <img src="img/panes/2.jpg" alt="">
+                    <p>Ingredientes: <br>
+                        Elaboración:</p>
+                </div>
+                <div class="producto">
+                    <img src="img/panes/3.jpg" alt="">
+                    <p>Ingredientes: <br>
+                        Elaboración:</p>
+                </div>
+            
+                <div class="producto">
+                    <img src="img/panes/4.jpg" alt="">
+                    <p>Ingredientes: <br>
+                        Elaboración:</p>
+                </div>
+                <div class="producto">
+                    <img src="img/panes/5.jpg" alt="">
+                    <p>Ingredientes: <br>
+                        Elaboración:</p>
+                </div>
+                <div class="producto">
+                    <img src="img/panes/6.jpg" alt="">
+                    <p>Ingredientes: <br>
+                        Elaboración:</p>
+                </div>
+            
+                <div class="producto">
+                    <img src="img/panes/7.jpg" alt="">
+                    <p>Ingredientes: <br>
+                        Elaboración:</p>
+                </div>
+                <div class="producto">
+                    <img src="img/panes/8.jpg" alt="">
+                    <p>Ingredientes: <br>
+                        Elaboración:</p>
+                </div>
+                <div class="producto">
+                    <img src="img/panes/9.jpg" alt="">
+                    <p>Ingredientes: <br>
+                        Elaboración:</p>
+                </div>
+            
+                <div class="producto">
+                    <img src="img/panes/10.jpg" alt="">
+                    <p>Ingredientes: <br>
+                        Elaboración:</p>
+                </div>
+                <div class="producto">
+                    <img src="img/panes/11.jpg" alt="">
+                    <p>Ingredientes: <br>
+                        Elaboración:</p>
+                </div>
+                <div class="producto">
+                    <img src="img/panes/12.jpg" alt="">
+                    <p>Ingredientes: <br>
+                        Elaboración:</p>
+                </div>
+            </div>
+
+        </main>
+        <footer>
+            <div id="informacionContacto">
+                <p>
+                    Información de contacto <br>
+                    123 456 789 <br>
+                    Avd alhambra nº72 ALMERÍA
+                </p>
+    
+                <img src="img/croquis.JPG">
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>

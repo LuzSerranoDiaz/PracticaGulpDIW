@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Migas Amigas</title>
+   <link rel="stylesheet" href="../styles/index.css">
+</head>
+<body>
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+          if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+          } else {
+            document.getElementById("navbar").style.top = "-280px";
+          }
+          prevScrollpos = currentScrollPos;
+        }
+        </script>
+    <div class="grid">
+    <nav id="navbar">
+        <div class="secciones">
+            <div class="elementoNav" id="panaderia"><a href="padaria.html"><span>Panadería</span></a></div>
+            <div class="elementoNav" id="bolleria"><a href="pastelaria.html"><span>Bollería</span></a></div>
+            <div class="elementoNav" id="empanadas"><a href="empanadas.html"><span>Empanadas</span></a></div>
+        </div>
+        <div class="elementoNav" id="CambiarIdioma"><a href="../index.html"><span>Mudar idioma</span></a></div>
+        <div class="textoImportante-D"><a href=""> MIGAS AMIGAS</a></div>
+    </nav>
+        <main>
+            
+            <div class="textoImportante-E"><a href="padaria.html">Começar</a></div>
+        </main>
+        <footer>
+            <div id="informacionContacto">
+                <p>
+                    Informação de contato <br>
+                    123 456 789 <br>
+                    Avd alhambra nº72 ALMERÍA
+                </p>
+    
+                <img src="img/croquis.JPG">
+            </div>
+        </footer>
+    </div>
+    <video autoplay="true" muted="true" loop="true"><source src="img/videopan.mp4"></video>
+</body>
+</html>
